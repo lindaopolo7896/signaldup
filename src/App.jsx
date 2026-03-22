@@ -1,0 +1,20 @@
+import "./App.css";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "motion/react";
+import LandingPage from "./pages/LandingPage";
+import PortfolioPage from "./pages/PortfolioPage";
+
+function App() {
+  const location = useLocation();
+
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/portfolio/:slug" element={<PortfolioPage />} />
+      </Routes>
+    </AnimatePresence>
+  );
+}
+
+export default App;

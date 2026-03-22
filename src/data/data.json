@@ -1,0 +1,52 @@
+{
+  "crystalVibes": {
+    "id": 1,
+    "slug": "crystalVibes",
+    "name": "Crystal Vibes",
+    "title": "IN THE FLOW OF MOTION & FORM",
+    "description": "Momentum captures the energy of movement and the elegance of control — a balance between instinct and intention. It’s a study in presence, attitude, and the quiet confidence that comes from owning every step forward.",
+    "expertises": ["Art & Culture", "Concepts"],
+    "services": ["Brand Identity", "Style Guide"],
+    "images": ["/assets/img1.jpg", "/assets/img2.jpg", "/assets/img3.jpg"]
+  },
+  "intoTheHeat": {
+    "id": 2,
+    "slug": "intoTheHeat",
+    "name": "Into the Heat",
+    "title": "FIRE, RHYTHM, DISCIPLINE",
+    "description": "A study in pressure and pace: sharp silhouettes, kinetic typography, and a system built to stay legible even when everything moves fast.",
+    "expertises": ["Editorial", "Motion"],
+    "services": ["Art Direction", "Visual System"],
+    "images": ["/assets/img4.jpg", "/assets/img5.jpg", "/assets/img6.jpg"]
+  },
+  "radiant": {
+    "id": 3,
+    "slug": "radiant",
+    "name": "Radiant",
+    "title": "LIGHT AS LANGUAGE",
+    "description": "A modular identity built around contrast, whitespace, and a visual grammar that feels calm but unmistakably confident.",
+    "expertises": ["Brand", "Art Direction"],
+    "services": ["Guidelines", "Identity System"],
+    "images": ["/assets/img7.jpg", "/assets/img8.jpg", "/assets/img9.jpg"]
+  },
+  "framework": {
+    "id": 4,
+    "slug": "framework",
+    "name": "Framework",
+    "title": "STRUCTURE WITH SOUL",
+    "description": "A design system that scales without turning sterile: strong typography, strict rules, and little moments of warmth.",
+    "expertises": ["Systems", "UI"],
+    "services": ["Design System", "Components"],
+    "images": ["/assets/img10.jpg", "/assets/img11.jpg", "/assets/img12.jpg"]
+  },
+  "balanced": {
+    "id": 5,
+    "slug": "balanced",
+    "name": "Balanced",
+    "title": "FORM,FEELING",
+    "description": "A brand language that holds tension and softness at once, like a steady breath in a loud room.",
+    "expertises": ["Strategy", "Design"],
+    "services": ["Brand Strategy", "Identity"],
+    "images": ["/assets/img13.jpg", "/assets/img14.jpg", "/assets/img15.jpg"]
+  }
+}
