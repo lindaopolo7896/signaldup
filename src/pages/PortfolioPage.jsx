@@ -1,14 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "framer-motion";
 import data from "../data/data.json";
 import FeatureCard from "../components/FeatureCard";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 function PortfolioPage() {
   const { slug } = useParams();
+  const navigate = useNavigate();
 
   const feature = Object.values(data).find((item) => item.slug === slug);
 
@@ -30,6 +32,9 @@ function PortfolioPage() {
         expertises={feature.expertises}
         services={feature.services}
         images={feature.images}
+        onClose={() => {
+          navigate("/");
+        }}
       />
 
       <Features />

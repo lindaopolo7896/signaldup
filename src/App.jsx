@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes, useLocation } from "react-router-dom";
-import { AnimatePresence } from "motion/react";
+import { AnimatePresence } from "framer-motion";
 import LandingPage from "./pages/LandingPage";
 import PortfolioPage from "./pages/PortfolioPage";
 

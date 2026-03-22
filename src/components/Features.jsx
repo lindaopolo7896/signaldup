@@ -17,11 +17,11 @@ function Features() {
           key={item.id}
           className="group relative overflow-hidden py-1 border-b-black border-b flex items-center justify-between cursor-pointer"
         >
-          <div className="absolute inset-0 bg-black translate-y-full group-hover:translate-y-0 transition-transform duration-500 pointer-events-none"></div>
-
+          <div className="absolute inset-0 bg-black translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-0"></div>
           <Link
             to={`/portfolio/${item.slug}`}
             className="relative z-10 text-[2rem] md:text-[2.7rem] lg:text-[3.5rem] transition-colors duration-500 group-hover:text-white"
+            onClick={() => console.log("clicked", item.slug)}
           >
             {item.name}
           </Link>
