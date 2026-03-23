@@ -90,6 +90,7 @@ function Hero() {
         initial="hidden"
         animate="visible"
         className="text-[clamp(2rem,10vw,15rem)] font-bold text-center w-[400px] md:w-[600px] lg:w-[900px]  m-auto leading-tight "
+        style={{ userSelect: "none" }}
       >
         <motion.span variants={spanVariants} className="inline-block ">
           WE
